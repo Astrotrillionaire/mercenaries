@@ -1,0 +1,29 @@
+{
+  "name": "frontier-bounty-board",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode localnet",
+    "dev:utopia": "vite --mode utopia",
+    "build": "tsc && vite build --mode localnet",
+    "build:utopia": "tsc && vite build --mode utopia",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@evefrontier/dapp-kit": "^0.1.5",
+    "@mysten/dapp-kit-react": "^1.1.0",
+    "@mysten/sui": "^2.6.0",
+    "@tanstack/react-query": "^5.90.21",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react-swc": "^3.11.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1"
+  }
+}

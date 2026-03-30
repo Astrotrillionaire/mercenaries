@@ -1,0 +1,13 @@
+[package]
+name = "bounty"
+edition = "2024"
+
+[dependencies]
+world = { local = "/workspace/world-contracts/contracts/world" }
+
+[addresses]
+bounty = "0x0"
+
+[environments]
+localnet = "0x0"
+utopia = "0x0"

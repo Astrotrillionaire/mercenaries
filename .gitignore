@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.env
+.env.localnet
+move/build/
+*.local
+
+# Published.toml files contain upgrade caps — keep utopia one, ignore localnet artifacts
+Pub.localnet.toml
